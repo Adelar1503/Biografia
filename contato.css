@@ -1,0 +1,116 @@
+.container {
+    padding: 0px 50px;
+}
+
+html, body {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+footer a{
+    margin: 20px;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+ul {
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;}
+    
+    footer a{
+
+        margin: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+.redessociais  {
+    text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin: 20px;
+  display: flex;
+    justify-content: center;
+        text-align: center;
+
+}
+
+.contato {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #333;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #8a2821;
+}
+
+.direitos {
+    color: yellow;
+    position: relative;
+    top: 22%;
+}
