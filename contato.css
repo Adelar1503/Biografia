@@ -114,3 +114,11 @@ button:hover {
     position: relative;
     top: 22%;
 }
+
+.Mensagem {
+    text-align: center;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 5ch;
+}
