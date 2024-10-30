@@ -2,12 +2,12 @@
     padding: 0px 50px;
 }
 
-html, body {
+body {
     background-color: rgb(0, 0, 0);
     height: 100%;
     background-color: black;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 footer {
@@ -131,4 +131,8 @@ body {
     to {
         opacity: 1;
     }
+}
+
+html{
+    scroll-behavior: smooth;
 }
